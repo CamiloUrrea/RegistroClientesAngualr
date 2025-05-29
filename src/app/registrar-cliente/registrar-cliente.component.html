@@ -58,7 +58,6 @@
         Formato inválido (ej: +57).
       </div>
 
-      <!-- Teléfono -->
       <input
         type="text"
         name="telefono"
@@ -77,11 +76,6 @@
         Registrar
       </button>
     </form>
+    </div>  
+</div> 
 
-    <div *ngIf="cargando" class="mensaje cargando">⏳ Registrando...</div>
-    <div *ngIf="mensaje && !cargando" class="mensaje">{{ mensaje }}</div>
-      <div class="acciones">
-        <button type="button" class="secundario" (click)="irAlLogin()">Iniciar Sesión</button>
-      </div>
-  </div>
-</div>
